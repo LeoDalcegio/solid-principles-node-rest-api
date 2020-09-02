@@ -1,0 +1,24 @@
+{
+  "name": "solid-principles-node-rest-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/LeoDalcegio/solid-principles-node-rest-api.git",
+  "author": "LeoDalcegio <leoodalcegio@hotmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon src/server.ts"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "nodemailer": "^6.4.11",
+    "uuid": "^8.3.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.8",
+    "@types/nodemailer": "^6.4.0",
+    "@types/uuid": "^8.3.0",
+    "nodemon": "^2.0.4",
+    "typescript": "^4.0.2"
+  }
+}
